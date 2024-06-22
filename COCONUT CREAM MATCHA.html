@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- https://cocoshop.vn/ -->
+<!-- http://mauweb.monamedia.net/vanihome/ -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi tiêt sản phẩm</title>
+    <!-- Font roboto -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Icon fontanwesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- Reset css & grid sytem -->
+    <link rel="stylesheet" href="./assets/css/library.css">
+    <!-- Owl Slider css -->
+    <link rel="stylesheet" href="assets/owlCarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/owlCarousel/assets/owl.theme.default.min.css">
+    <!-- Layout -->
+    <link rel="stylesheet" href="./assets/css/common.css">
+    <!-- index -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/product.css">
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Owl caroucel Js-->
+    <script src="assets/owlCarousel/owl.carousel.min.js"></script>
+
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css">
+</head>
+
+<body>
+    <div class="header scrolling" id="myHeader">
+        <div class="grid wide">
+            <div class="header__top">
+                <div class="navbar-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <a href="index.html" class="header__logo">
+                    <img src="./assets/logo.png" alt="">
+                </a>
+                <div class="header__search">
+                    <div class="header__search-wrap">
+                        <input type="text" class="header__search-input" placeholder="Tìm kiếm">
+                        <a class="header__search-icon" href="#">
+                            <i class="fas fa-search"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="header__account">
+                    <a href="#my-Login" class="header__account-login">Đăng Nhập</a>
+                    <a href="#my-Register" class="header__account-register">Đăng Kí</a>
+                </div>
+                <!-- Cart -->
+                <div class="header__cart have" href="#">
+                    <i class="fas fa-shopping-basket"></i>
+                    <div class="header__cart-amount">
+                        3
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Menu -->
+        <div class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item nav__search">
+                    <div class="nav__search-wrap">
+                        <input class="nav__search-input" type="text" name="" id="" placeholder="Tìm sản phẩm...">
+                    </div>
+                    <div class="nav__search-btn">
+                        <i class="fas fa-search"></i>
+                    </div>
+                </li>
+                <li class="header__nav-item authen-form">
+                    <a href="#" class="header__nav-link">Tài Khoản</a>
+                    <ul class="sub-nav">
+                        <li class="sub-nav__item">
+                            <a href="#my-Login" class="sub-nav__link">Đăng Nhập</a>
+                        </li>
+                        <li class="sub-nav__item">
+                            <a href="#my-Register" class="sub-nav__link">Đăng Kí</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="header__nav-item index">
+                    <a href="index.html" class="header__nav-link">Trang chủ</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="contact.html" class="header__nav-link">Liên Hệ</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="header scrolling" id="myHeader2">
+      <div class="grid wide">
+        <div class="header__top">
+          <div class="navbar-icon"> <span></span> <span></span> <span></span> </div>
+          <a href="index.html" class="header__logo"> 
+			  <img src="https://i.imgur.com/cYjhR9M.png" alt="" width="230"> </a>
+          <div class="header__search">
+            <div class="header__search-wrap">
+              <input type="text" class="header__search-input" placeholder="Tìm kiếm">
+              <a class="header__search-icon" href="#"> <i class="fas fa-search"></i> </a> </div>
+          </div>
+          <div class="header__account"> <a href="#my-Login" class="header__account-login">Đăng nhập</a> <a href="#my-Register" class="header__account-register">Đăng ký</a> </div>
+          <!-- Cart -->
+          <div class="header__cart have" href="#"> <i class="fas fa-shopping-basket"></i>
+            <div class="header__cart-amount"> 3 </div>
+            <div class="header__cart-wrap">
+              <ul class="order__list">
+                <li class="item-order">
+                  <div class="order-wrap"> <a href="product.html" class="order-img"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW8uEMZcCx4PcvCXlkB5gSQHHyTEghNbOy4pC5HmHagb18DMf3x_l7eXjvBkNHA9qqCnI&usqp=CAU" alt=""> </a>
+                    <div class="order-main"> <a href="product.html" class="order-main-name">Matcha latte</a>
+                      <div class="order-main-price">2 x 70,000 ₫</div>
+                    </div>
+                    <a href="product.html" class="order-close"><i class="far fa-times-circle"></i></a> </div>
+                </li>
+                <li class="item-order">
+                  <div class="order-wrap"> <a href="product.html" class="order-img"> <img src="https://scontent.fsgn5-10.fna.fbcdn.net/v/t39.30808-6/433140189_18146118217309411_6118078432232256637_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeER32-Nh6RxN0nHs1J291RxTGDbpjayo2dMYNumNrKjZ-NdaOoRCBaZqquS_PBcLIT0kZyCwzX7zOU_4HVq5k8f&_nc_ohc=iEVfmpBH_pUQ7kNvgHepNgx&_nc_ht=scontent.fsgn5-10.fna&oh=00_AYBzkKv_3EoSuPw7l25Hjx4v2ax3JGH_SLa1svlysW3Wog&oe=667CD5C8" alt=""> </a>
+                    <div class="order-main"> <a href="product.html" class="order-main-name">Coconut Matcha</a>
+                      <div class="order-main-price">1 x 35,000 ₫</div>
+                    </div>
+                    <a href="product.html" class="order-close"><i class="far fa-times-circle"></i></a> </div>
+                </li>
+                <li class="item-order">
+                  <div class="order-wrap"> <a href="product.html" class="order-img"> <img src="https://scontent.fsgn5-10.fna.fbcdn.net/v/t39.30808-6/441547319_18153502423309411_8779747835612008917_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeENyETVdkir2FCCtHThh7AZrW02dVDEx0OtbTZ1UMTHQ-kWNmIuRFmM9TZ2bwS_G7lPOFsAr7IA68_RvkQyjPzW&_nc_ohc=xNwKnFZSagMQ7kNvgH3hlae&_nc_ht=scontent.fsgn5-10.fna&oh=00_AYDcDjlGZBUg1dtRqtkfyI_kOGasB_-LvYzL5VdwdGX_DQ&oe=667CD6BA" alt=""> </a>
+                    <div class="order-main"> <a href="product.html" class="order-main-name">Matcha Macchiato</a>
+                      <div class="order-main-price">2 x 74,000 ₫</div>
+                    </div>
+                    <a href="product.html" class="order-close"><i class="far fa-times-circle"></i></a> </div>
+                </li>
+              </ul>
+              <div class="total-money">Tổng cộng: 179.000đ</div>
+              <a href="cart.html" class="btn btn--default cart-btn">Xem giỏ hàng</a> <a href="pay.html" class="btn btn--default cart-btn orange">Thanh toán</a>
+              <!-- norcart -->
+              <!-- <img class="header__cart-img-nocart" src="http://www.giaybinhduong.com/images/empty-cart.png" alt=""> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Menu -->
+      <div class="header__nav">
+        <ul class="header__nav-list">
+          <li class="header__nav-item nav__search">
+            <div class="nav__search-wrap">
+              <input class="nav__search-input" type="text" name="input" id="input" placeholder="Tìm sản phẩm...">
+            </div>
+            <div class="nav__search-btn"> <i class="fas fa-search"></i> </div>
+          </li>
+          <li class="header__nav-item authen-form"> <a href="#" class="header__nav-link">Tài Khoản</a>
+            <ul class="sub-nav">
+              <li class="sub-nav__item"> <a href="#my-Login" class="sub-nav__link">Đăng Nhập</a> </li>
+              <li class="sub-nav__item"> <a href="#my-Register" class="sub-nav__link">Đăng Kí</a> </li>
+            </ul>
+          </li>
+          <li class="header__nav-item index"> <a href="index.html" class="header__nav-link">Trang chủ</a> </li>
+          <li class="header__nav-item"> </li>
+          <li class="header__nav-item"> <a href="contact.html" class="header__nav-link">Liên Hệ</a> </li>
+        </ul>
+      </div>
+    </div>
+    <div class="main">
+      <div class="grid wide">
+        <div class="productInfo">
+                <div class="row">
+                    <div class="col l-5 m-12 s-12">
+                        <div class="owl-carousel owl-theme" id="sync1">
+                            <a href="#" class="product">
+                                <div class="product__avt" style="background-image: url(https://i.imgur.com/bDuRtWx.jpeg)">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="owl-carousel owl-theme" id="sync2">
+                            <a href="#" class="product">                            </a>
+                            <a href="#" class="product">
+                                
+                            </a>
+                            <a href="#" class="product">                            </a>
+                            <a href="#" class="product">                            </a>
+                        </div>
+
+                    </div>
+                    <div class="col l-7 m-12s s-12 pl">
+                        <div class="main__breadcrumb">
+                            <div class="breadcrumb__item">
+                                <a href="#" class="breadcrumb__link">Trang chủ</a>
+                            </div>
+                            <div class="breadcrumb__item">
+                                <a href="#" class="breadcrumb__link">Sản phẩm</a>
+                            </div>
+                            <div class="breadcrumb__item">
+                                <a href="#" class="breadcrumb__link">COCONUT CREAM MATCHA&nbsp;&nbsp; </a>
+                            </div>
+                        </div>
+                        <h3 class="productInfo__name">
+                        coconut cream matchha
+                    </h3>
+                        <div class="productInfo__price">
+                            39.000 <span class="priceInfo__unit">đ</span>
+                        </div>
+                       
+					  <div class="productInfo__description">
+                          
+                         <p>- Dừa matcha cream foam đã coá ở Ranchu ùi nè cả nhà ơi, nhà mình muốn order thì nhá tiệm nha 🍵.</p>
+						  
+					  </div>
+                        <div class="productInfo__addToCart">
+                            <div class="buttons_added">
+                                <input class="minus is-form" type="button" value="-" onclick="minusProduct()">
+                                <input aria-label="quantity" class="input-qty" max="10" min="1" name="" type="number" value="1">
+                                <input class="plus is-form" type="button" value="+" onclick="plusProduct()">
+                            </div>
+                            <div class=" btn btn--default orange ">Thêm vào giỏ</div>
+                        </div>
+                        <div class="productIndfo__policy ">
+                            <div class="policy bg-1 ">
+                                <img src="./assets/img/policy/policy1.png " class="productIndfo__policy-img "></img>
+                                <div class="productIndfo__policy-info ">
+                                    <h3 class="productIndfo__policy-title ">Giao hàng miễn phí</h3>
+                                    <p class="productIndfo__policy-description ">Cho đơn hàng từ 150K</p>
+                                </div>
+                            </div>
+                            <div class="policy bg-2 ">
+                                <img src="./assets/img/policy/policy2.png " class="productIndfo__policy-img "></img>
+                                <div class="productIndfo__policy-info ">
+                                    <h3 class="productIndfo__policy-title ">Đổi trả hàng</h3>
+                                  <p class="productIndfo__policy-description ">Nếu có sai sót/hư hỏng</p>
+                                </div>
+                            </div>
+                            <div class="policy bg-1 ">
+                                <img src="./assets/img/policy/policy3.png " class="productIndfo__policy-img "></img>
+                                <div class="productIndfo__policy-info ">
+                                    <h3 class="productIndfo__policy-title ">RANCHU</h3>
+                                    <p class="productIndfo__policy-description ">Cam kết chất lượngK</p>
+                                </div>
+                            </div>
+                            <div class="policy bg-2 ">
+                                <img src="./assets/img/policy/policy4.png " class="productIndfo__policy-img "></img>
+                                <div class="productIndfo__policy-info ">
+                                    <h3 class="productIndfo__policy-title ">Tư vấn 24/24</h3>
+                                    <p class="productIndfo__policy-description ">Giải đáp mọi thắc mắc</p>
+                                </div>
+                            </div>
+                        </div>
+                  </div>
+                </div>
+            </div>
+            <div class="productDetail ">
+                <div class="main__tabnine ">
+                    <div class="grid wide ">
+                       
+    <div class="footer">
+        <div class="grid wide">
+            <div class="row">
+              <div class="col l-3 m-6 s-12">
+                <h3 class="footer__title">Hỗ trợ khách hàng</h3>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Hướng dẫn mua hàng</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Giải đáp thắc mắc</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Chính sách mua hàng</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Chính sách đổi trả</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col l-3 m-6 s-12">
+                    <h3 class="footer__title">Liên hệ</h3>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <span class="footer__text">
+                                    <i class="fas fa-map-marked-alt"></i> 118 Nguyễn Phi Khanh, phường Tân Định, Quận 1, TP HCM </span></li>
+          <li class="footer__item"> <a href="#" class="footer__link"> <i class="fas fa-phone"></i> 0931899438 </a></li>
+          <li class="footer__item"> <a href="#" class="footer__link"> <i class="fas fa-envelope"></i> &nbsp;ranchusaigon@gmail.com
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <div class="social-group">
+                                <a href="#" class="social-item"><i class="fab fa-facebook-f"></i>
+                              </a>
+                                <a href="#" class="social-item"><i class="fab fa-instagram"></i>
+                              </a>
+                               
+                          </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col l-3 m-6 s-12">
+                    <h3 class="footer__title">Đăng kí nhận tin</h3>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <span class="footer__text">Mỗi tháng chúng tôi đều có những đợt giảm giá dịch vụ và sản phẩm nhằm chi ân khách hàng. Để có thể cập nhật kịp thời những đợt giảm giá này, vui lòng nhập địa chỉ email của bạn vào ô dưới đây.
+</span>
+                        </li>
+                        <li class="footer__item">
+                            <div class="send-email">
+                                <input class="send-email__input" type="email" placeholder="Nhập Email...">
+                                <a href="#" class="send-email__link">
+                                    <i class="fas fa-paper-plane"></i>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <span class="footer__text"> COPYRIGHTS © 2020 BY
+ <a class="footer__link" href="#"> RANCHUSAIGON.</a></span>
+        </div>
+    </div>
+    <!-- Modal Form -->
+    <div class="ModalForm ">
+        <div class="modal " id="my-Register ">
+            <a href="# " class="overlay-close "></a>
+            <div class="authen-modal register ">
+                <h3 class="authen-modal__title ">Đăng Kí</h3>
+                <div class="form-group ">
+                    <label for="account " class="form-label ">Họ Tên</label>
+                    <input id="account " name="account " type="text " class="form-control ">
+                    <span class="form-message ">Không hợp lệ !</span>
+                </div>
+                <div class="form-group ">
+                    <label for="password " class="form-label ">Tài khoản Email *</label>
+                    <input id="password " name="password " type="text " class="form-control ">
+                    <span class="form-message "></span>
+                </div>
+                <div class="form-group ">
+                    <label for="password " class="form-label ">Mật khẩu *</label>
+                    <input id="password " name="password " type="text " class="form-control ">
+                    <span class="form-message "></span>
+                </div>
+                <div class="form-group ">
+                    <label for="password " class="form-label ">Nhập lại mật khẩu *</label>
+                    <input id="password " name="password " type="text " class="form-control ">
+                    <span class="form-message "></span>
+                </div>
+                <div class="authen__btns ">
+                    <div class="btn btn--default ">Đăng Kí</div>
+                </div>
+            </div>
+        </div>
+        <div class=" modal " id="my-Login ">
+            <a href="# " class="overlay-close "></a>
+            <div class="authen-modal login ">
+                <h3 class="authen-modal__title ">Đăng Nhập</h3>
+                <div class="form-group ">
+                    <label for="account " class="form-label ">Địa chỉ email *</label>
+                    <input id="account " name="account " type="text " class="form-control ">
+                    <span class="form-message ">Tài khoản không chính xác !</span>
+                </div>
+                <div class="form-group ">
+                    <label for="password " class="form-label ">Mật khẩu *</label>
+                    <input id="password " name="password " type="text" class="form-control ">
+                    <span class="form-message "></span>
+                </div>
+                <div class="authen__btns ">
+                    <div class="btn btn--default ">Đăng Nhập</div>
+                    <input type="checkbox " class="authen-checkbox ">
+                    <label class="form-label ">Ghi nhớ mật khẩu</label>
+                </div>
+                <a class="authen__link ">Quên mật khẩu ?</a>
+            </div>
+        </div>
+        <div class="up-top " id="upTop " onclick="goToTop() ">
+            <i class="fas fa-chevron-up "></i>
+        </div>
+
+    </div>
+    <!-- Messenger Plugin chat Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Plugin chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+        var chatbox = document.getElementById('fb-customer-chat');
+        chatbox.setAttribute("page_id", "105913298384666");
+        chatbox.setAttribute("attribution", "biz_inbox");
+        window.fbAsyncInit = function() {
+            FB.init({
+                xfbml: true,
+                version: 'v10.0'
+            });
+        };
+
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <script>
+        $(document).ready(function() {
+            var sync1 = $("#sync1 ");
+            var sync2 = $("#sync2 ");
+            var slidesPerPage = 4;
+            var syncedSecondary = true;
+            sync1.owlCarousel({
+                items: 1,
+                loop: true,
+                margin: 20,
+                nav: true,
+                dots: false,
+                autoplay: true,
+                autoplayTimeout: 4000,
+                autoplayHoverPause: true
+            })
+            sync2
+                .on('initialized.owl.carousel', function() {
+                    sync2.find(".owl-item ").eq(0).addClass("current ");
+                })
+                .owlCarousel({
+                    items: 4,
+                    dots: false,
+                    nav: false,
+                    margin: 30,
+                    smartSpeed: 200,
+                    slideSpeed: 500,
+                    slideBy: 4,
+                    responsiveRefreshRate: 100
+                }).on('changed.owl.carousel', syncPosition2);
+
+            function syncPosition(el) {
+                var count = el.item.count - 1;
+                var current = Math.round(el.item.index - (el.item.count / 2) - .5);
+
+                if (current < 0) {
+                    current = count;
+                }
+                if (current > count)  {
+                    current = 0;
+                }
+
+                //end block
+
+                sync2
+                    .find(".owl-item ")
+                    .removeClass("current ")
+                    .eq(current)
+                    .addClass("current ");
+                var onscreen = sync2.find('.owl-item.active').length - 1;
+                var start = sync2.find('.owl-item.active').first().index();
+                var end = sync2.find('.owl-item.active').last().index();
+
+                if (current > end) {
+                    sync2.data('owl.carousel').to(current, 100, true);
+                }
+                if (current < start) {
+                    sync2.data('owl.carousel').to(current - onscreen, 100, true);
+                }
+            }
+
+            function syncPosition2(el) {
+                if (syncedSecondary) {
+                    var number = el.item.index;
+                    sync1.data('owl.carousel').to(number, 100, true);
+                }
+            }
+
+            sync2.on("click ", ".owl-item ", function(e) {
+                e.preventDefault();
+                var number = $(this).index();
+                sync1.data('owl.carousel').to(number, 300, true);
+            });
+        });
+
+        $('.owl-carousel.hight').owlCarousel({
+            loop: true,
+            margin: 20,
+            nav: true,
+            dots: false,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 2
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 6
+                }
+            }
+        })
+    </script>
+
+    <!-- Script common -->
+    <script src="./assets/js/commonscript.js ">
+    </script>
+    <script>
+        function calcRate(r) {
+            const f = ~~r, //Tương tự Math.floor(r)
+                id = 'star' + f + (r % f ? 'half' : '')
+            id && (document.getElementById(id).checked = !0)
+        }
+    </script>
+</body>
+
+</html>
